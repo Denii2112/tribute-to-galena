@@ -1,0 +1,142 @@
+<!DOCTYPE html>  
+<html lang="bg">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Галена Official</title>  
+    <link rel="stylesheet" href="styles.css">  
+    <script src="scripts.js" defer></script>  
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d0d0d;
+            color: #fff;
+            text-align: center;
+        }
+        nav {
+            background: linear-gradient(90deg, #d81b60, #8e24aa);
+            padding: 15px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            font-size: 18px;
+            transition: 0.3s;
+            padding: 10px 15px;
+        }
+        nav ul li a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+        .hero {
+            padding: 80px 20px;
+            background: url('background.jpg') center/cover no-repeat;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 20px;
+            max-width: 600px;
+        }
+        .hero-images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .hero-images img {
+            width: 280px;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s;
+        }
+        .hero-images img:hover {
+            transform: scale(1.1);
+        }
+        .animated-button {
+            background: linear-gradient(90deg, #d81b60, #8e24aa);
+            border: none;
+            padding: 12px 25px;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: 0.3s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .animated-button:hover {
+            background: linear-gradient(90deg, #8e24aa, #d81b60);
+        }
+        footer {
+            background-color: #111;
+            padding: 25px;
+            margin-top: 40px;
+            font-size: 16px;
+        }
+        .footer-links a {
+            color: #d81b60;
+            text-decoration: none;
+            margin: 0 12px;
+            font-size: 18px;
+        }
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>  
+<body>  
+    <nav>  
+        <ul>  
+            <li><a href="index.html">Начало</a></li>  
+            <li><a href="about.html">За нас</a></li>  
+            <li><a href="contact.html">Контакти</a></li>  
+            <li><a href="gallery.html">Галерия</a></li>  
+            <li><a href="portfolio.html">Портфолио</a></li>  
+            <li><a href="blog.html">Блог</a></li>  
+            <li><a href="youtube.html">YouTube</a></li>  
+        </ul>  
+    </nav>  
+
+    <header id="home" class="hero">  
+        <h1>Добре дошли в официалната страница на Галена</h1>  
+        <p>Тук ще намерите всичко свързано с нейната кариера и личен живот.</p>  
+        <button class="animated-button">Научете повече</button>  
+        <div class="hero-images">  
+            <img src="images (1).jpeg" alt="Галена на концерт">  
+            <img src="download (1).jpeg" alt="Галена фотосесия">  
+            <img src="download (4).jpeg" alt="Галена с семейство">  
+        </div>  
+    </header>  
+
+    <footer>  
+        <p>&copy; 2025 Галена. Всички права запазени.</p>  
+        <div class="footer-links">  
+            <a href="index.html">Начало</a>  
+            <a href="about.html">За нас</a>  
+            <a href="contact.html">Контакти</a>  
+            <a href="gallery.html">Галерия</a>  
+        </div>  
+    </footer>  
+</body>  
+</html>
